@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+
+<body>
+    <form>
+        <lable>
+            Username
+            <input name="username" type="text" placeholder="Your username" />
+        </lable>
+        <lable>
+            Password
+            <input name="password" type="password" placeholder="Your password" />
+        </lable>
+        <lable>
+            Email
+            <input name="email" type="email" placeholder="youremail@email.com" />
+        </lable>
+
+        <h1>Favorite food</h1>
+        <label>
+            <input name="favorite_food" value="fried_egg" type="checkbox" checked />
+            Fried egg
+        </label>
+        <label>
+            <input name="favorite_food" value="omlet" type="checkbox" />
+            Omlet
+        </label>
+        <label>
+            <input name="favorite_food" value="boiled_egg" type="checkbox">
+            Boiled egg
+        </label>
+
+        <h1>Yes or No</h1>
+        <label>
+            <input name="yes_or_no" value="yes" type="radio" />
+            Yes
+        </label>
+        <lable>
+            <input name="yes_or_no" value="no" type="radio" />
+            No
+        </lable>
+
+        <h1>Province</h1>
+        <lable>
+            <select name="province">
+                <optgroup label="North">
+                    <option value="chengmai">Chengmai</option>
+                    <option value="chengrai">Chengrai</option>
+                    <option value="mhahongsorn">Mhahongsorn</option>
+                </optgroup>
+                <optgroup label="Middle">
+                    <option value="nakornphathom">Nakornphathom</option>
+                    <option value="nontabburi">Nontabburi</option>
+                    <option value="patumtani">Patumtani</option>
+                </optgroup>
+                <option value="bangkok" selected>Bangkok</option>
+                <option value="pattaya">Pataya</option>
+                <option value="roied">Roied</option>
+            </select>
+        </lable>
+
+        <h1>Comment</h1>
+        <label>
+            <textarea name="comment"></textarea>
+        </label>
+
+        <lable>
+            <input type="checkbox" required/>
+            Accept
+        </lable>
+        
+        <button type="submit">Send</button>
+    </form>
+</body>
+
+</html>
